@@ -1,0 +1,13 @@
+name = "ECOSProblems"
+uuid = "21fe4e88-c62b-49d8-a785-445162d6301f"
+authors = ["Michael Friedlander <michael@friedlander.io>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
