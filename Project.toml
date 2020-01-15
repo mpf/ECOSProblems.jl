@@ -3,6 +3,11 @@ uuid = "21fe4e88-c62b-49d8-a785-445162d6301f"
 authors = ["Michael Friedlander <michael@friedlander.io>"]
 version = "0.1.0"
 
+[deps]
+ECOS = "e2685f51-7e38-5353-a97d-a921fd2c8199"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
 [compat]
 julia = "1"
 
