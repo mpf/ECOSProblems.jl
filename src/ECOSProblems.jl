@@ -1,3 +1,15 @@
+"""
+Use ECOS to solve the bound-constrained least-squares problem
+
+    minimize ||Ax-b||_2 subj to ℓ ≤ x ≤ u.
+
+ECOS is a primal-dual interior method for SOCP. This module translates
+the problem into the SOCP
+
+    minimize  t  subj to Ax + r = b, (||x||,t) ∈ SOC, ℓ ≤ x ≤ u.
+
+See [`lsbox`](@ref)
+"""
 module ECOSProblems
 
 using ECOS

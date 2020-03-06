@@ -1,7 +1,7 @@
 """
 Solve the constrained least-squares problem
 
-    minimize  ||Ax-b||₂  st  x ≥ 0.
+    minimize  ||Ax-b||₂  st  0 ≤ x ≤ u.
 
 Rephrases the problem as linear SOC program:
 
